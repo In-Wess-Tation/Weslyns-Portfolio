@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Banner from "../components/gallery/Banner";
 import Cards from "../components/gallery/Card/Cards";
 import Cirkels from "../components/gallery/Cirkels";
