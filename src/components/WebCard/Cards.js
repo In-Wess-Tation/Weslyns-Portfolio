@@ -29,7 +29,7 @@ const Cards = () => {
     <article css={style}>
         <CardsWrapper>
             <Card>
-                <CardImg><img src={MyMovie} alt="Mymovie picture" style={{height:"100%" }}/></CardImg>
+                <CardImg><img src={MyMovie} alt="Mymovie" style={{height:"100%" }}/></CardImg>
                 <CardHeadline>My Movie</CardHeadline>
                 <CardText>Denne hjemmeside er en film app, hvor man kan se de nyeste og mest populære film.</CardText>
                 <CardLink><a href="https://mymovies-wess.netlify.app/">My Movies Link</a></CardLink>
