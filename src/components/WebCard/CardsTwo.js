@@ -12,6 +12,7 @@ import Card from "./Card"
 import BMNF from "../../img/BMNF.png"
 import Burgos from "../../img/burgos.png"
 import CPHAch from "../../img/CPHAch.png"
+import Movibes from "../../img/movibes.png"
 
 
 const CardsTwo = () => {
@@ -37,6 +38,12 @@ const CardsTwo = () => {
                 <CardHeadline>Burgos</CardHeadline>
                 <CardText><p>Dette var min grundforløbs eksamen. Hvor jeg skulle implimintere funktionalitet og styling.</p></CardText>
                 <CardLink><a href="https://burgos.netlify.app/">Link til Burgos</a></CardLink>
+            </Card>           
+            <Card>
+                <CardImg><img src={Movibes} alt="Movibes" style={{height:"100%" }}/></CardImg>
+                <CardHeadline>Movibes</CardHeadline>
+                <CardText><p>Denne hjemmeside er en form for 2.0 for my movies siden</p></CardText>
+                <CardLink><a href="https://weslyn-movibes.netlify.app/">Link til Movibes</a></CardLink>
             </Card>           
             <Card>
                 <CardImg><img src={CPHAch} alt="Copenhagen architects website" style={{height:"100%" }}/></CardImg>
